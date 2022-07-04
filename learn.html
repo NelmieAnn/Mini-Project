@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Homepage</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/Css/styles.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface" />
+
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fs-5 heading">
+    <div class="container">
+      <a class="navbar-brand first" href="index.html">
+        <img class="img-fluid logoimage" src="/Image/Lernen_logo.png" alt="logo" class="d-inline-block align top" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav text-center ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="Courses.html">Courses</a>
+          </li>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success" type="button">Search</button>
+          </form>
+         </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <section class="mt-5 p-5 text-justified">
+      <div class="container">
+        <div class="d-md-flex mt-5 justify-content-center">
+          <h1><span class="headings">HTML</span></h1>
+        </div> 
+
+        <div class="sidenav">
+          <h5 class="headingstyle">HTML</h5>
+          <a href="#">What is HTML?</a>
+          <a href="#topic2">How to Write HTML?</a>
+          <a href="#topic3">How to Use HTML?</a>
+          <a href="#topic4">Common HTML Elements</a>
+          <a href="#topic5">Common HTML Attributes</a>
+          <a href="#topic6">How to learn HTML</a>
+        </div>
+        
+        <div class="main">
+          <h2 class="topic_header">What is HTML?</h2>
+          <p>The foundational language of the World Wide Web is <span class="text-success">HTML</span>, often known as <span class="text-success">Hypertext Markup Language</span>. It was initially created as a language for semantically expressing scientific texts, but it has since been modified to describe the fundamental layout of websites and online programs. For instance, <span class="text-success">HTML</span> can be used to indicate which parts of a document are titles, lists, and images. Additionally, it can be used to italicize font, insert images, hyperlink words, and more.</p>
+          <p>The code used to make them visually appealing is known as <span class="text-success">CSS</span> and we shall focus on this in the next course. For now, we will focus on teaching you how to build rather than design.</p>
+          <p>Watch the short video below to know more about <span class="text-success">HTML</span>.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xKuJrmlCdig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>To understand "HTML" from front to back, let's look at each word that makes up the abbreviation:
+          <p><span class="text-success">Hypertext</span>: text (often with embeds such as images, too) that is organized in order to connect related items</p>
+          <p><span class="text-success">Markup</span>: a style guide for typesetting anything to be printed in hardcopy or soft copy format</p>  
+          <p><span class="text-success">Language</span>: a language that a computer system understands and uses to interpret commands.</p>
+          <p><span class="text-success">HTML</span> determines the structure of web pages. This structure alone is not enough to make a web page look good and interactive. So you'll use assisted technologies such as CSS and JavaScript to make your HTML beautiful and add interactivity, respectively.</p>  
+         <h2 class="topic_header">History of HTML</h2>
+          <p><span class="text-success">HTML</span> is the most popular markup language that was developed and written by Sir Tim Berners-Lee. Let us look the historical timeline of HTML below. </p>
+          <img src="/Image/history.png" alt="history">
+          <br>
+          <p class="topic" id="topic2">First published by Tim Berners-Lee in 1989, HTML is now used by 94% of all websites, and probably all the ones you visit.</p>
+          <br>
+          <br>
+         <h2>How to Write HTML</h2>
+          <p>As mentioned,<span class="text-success">HTML</span> is just plain text annotated with markup. More precisely, this markup consists of tags and attributes. To help you visualize this syntax, here’s a graphic: </p>
+          <img src="/Image/html syntax.png" alt="html syntax">
+          <p>Let us take a closer look at each component of an ,<span class="text-success">HTML</span> element below. </p>
+          <h4><span class="text-success">HTML Tags</span></h4>
+          <p><span class="text-success">HTML</span> elements are designated by tags. Most elements have an opening and closing tag. Opening tags precede the text and contain the element name enclosed by the brackets “<” and “>”. Closing tags are identical to opening tags, save for a backward slash that precedes the element name.</p>
+          <p>Say you want to add a paragraph to your web page, and the text of the paragraph is “This is a paragraph.” You’ll wrap it with the <span class="text-success">HTML</span> paragraph tags.
+          <img src="/Image/p tag.png" alt="p tag">
+          <p>Together, these three things are all you need make a paragraph element in <span class="text-success">HTML</span>.</p>
+          <p>Most <span class="text-success">HTML</span> elements are the same: an opening tag, a closing tag, and content in between. Some HTML elements, such as &lt;br&gt;(break), only have an opening tag — these are called empty tags.</p>
+          <img src="/Image/br.png" alt="break">
+          <p>Element names are case-insensitive. Meaning, they can be written in uppercase, lowercase, or some combination of the two. </p>
+          <img src="/Image/tags.png" alt="break">
+          <br>
+          <br>
+          <h4><span class="text-success">HTML Attributes</span></h4>
+          <p>While all HTML elements need tags, only some need attributes. An attribute provides additional information about the HTML element, and this information can be essential or non-essential.</p>
+          <p>For example, an image element must always have a source attribute whose value is the image URL or file path. Otherwise, the browser will not know what image to render. The same goes for the anchor element, which is used to create hyperlinks — it must contain an href attribute whose value specifies the link’s destination. Otherwise, if a visitor clicks on the anchor element, the browser won’t send them anywhere.</p>
+          <p>Other attributes aren’t essential to include but are considered a good practice. For example, a browser can render an image without the alt attribute, which contains image alt text. But, a reader with visual impairments might have trouble understanding what the image conveys without an alternative text description.</p>
+          <p>Now that we understand the importance of attributes, let’s make sure we understand how to find and write them. An attribute is always found in the opening tag of an HTML element and has the syntax: name=”value”.</p>
+          <p class="topic" id="topic3">Many elements have their own set of attributes that affect how the content is rendered on the page. Attributes can be written in any order inside the opening tag. However, you cannot put multiple instances of the same attribute inside the same HTML tag.</p>
+          <p>Before we walk through how to create an HTML file, let's look at what tools you'll need. </p>
+          <br>
+         <h2>How to Use HTML</h2>
+         <p>To start using HTML, you need a text editor like Notepad. Since an HTML file is in standard text format, any basic text editor will work. You may also download a Visual Studio Code, it is a free code editor.  </p>
+         <br>
+         <h4><span class="text-success">Step 1: Download the Visual Studio Code.</span></h4>
+         <p>You may click this link to download VS Code. <a href="https://code.visualstudio.com/">Visual Studio Code</a></p>
+         <img src="/Image/vscodedownload.png" alt="VScode">
+         <br>
+         <h4><span class="text-success">Step 2: Open the Visual Studio Code.</span></h4>
+         <p>Open the new downloaded VS code.</p>
+         <img src="/Image/vscode.png" alt="VScode">
+         <br>
+         <h4><span class="text-success">Step 3: Add HTML.</span></h4>
+         <p>Open new textfile.</p>
+         <p>Copy and paste the HTML below into the editor. We’ll explain what each of these elements mean in the following section.</p>
+         <img src="/Image/opennewfile.png" alt="VScode">
+         <img src="/Image/doctype.png" alt="VScode">
+         <br>
+         <h4><span class="text-success">Step 4: Save the HTML file.</span></h4>
+         <p>Copy and paste the HTML below into the editor. We’ll explain what each of these elements mean in the following section.</p>
+         <img src="/Image/save.png" alt="VScode">
+         <img src="/Image/savehtml.png" alt="VScode">
+         <br>
+         <h4><span class="text-success">Step 5: View the HTML file in your browser.</span></h4>
+         <p>Copy and paste the HTML below into the editor. We’ll explain what each of these elements mean in the following section.</p>
+         <img src="/Image/final.png" alt="VScode">
+         <br>
+         <br>
+         <h2 class="topic_header" id="topic3">How to Create an HTML File</h2>
+         <p>To build a website with HTML, you need to create an HTML file first. This file will contain all the HTML for your web page, and will be uploaded to your web server. That way, when a visitor searches for your website, the server will send the HTML file to the visitor's browser, and the browser will render the page accordingly.</p>
+         <p>Here's the step-by-step process so you can create an HTML file for your web project. We'll create the simplest HTML project where a beginner can follow along.</p>
+
+         <h4><span class="text-success">Step 1: View the HTML file in your browser.</span></h4>
+         <p>To start, you need declare the type of document as HTML. To do so, add the special code &lt;!DOCTYPE html&gt; on the very first line of the file.</p>
+         <h4>&lt;!DOCTYPE html&gt</h4>
+         <img src="/Image/3.png" alt="VScode">
+
+         <h4><span class="text-success">Step 2: Add an &lt;html&gt; element. </span></h4>
+         <p>Next, you'll want to define the root element of the document. Since this element signals what language you’re going to write in, it’s always going to be &lt;html&gt; in an HTML5 doc.
+
+          On the line below the DOCTYPE declaration, add an &lt;html&gt; opening tag. Below that, add a closing &lt;/html&gt; tag.</p>
+         
+         <img src="/Image/4.png" alt="VScode">
+
+         <h4><span class="text-success">Step 3: Add a language attribute. </span></h4>
+         <p>Within the opening tag of the html element, you should also include a lang (language) attribute. This will help screen readers determine what language the document is in, making your website more accessible. Without a language attribute, screen readers will default to the operating system’s language, which could result in mispronunciations of the title and other content on the page.</p>
+
+        <p>Since we’re writing this post in English, we’ll set the file’s lang attribute value to “en.”</p>
+         
+         <img src="/Image/5.png" alt="VScode">
+
+         <h4><span class="text-success">Step 4: Add a head and body section.  </span></h4>
+         <p>An HTML doc is composed of two parts: the head section and the body section. The head contains meta-information about the page as well as any internal CSS. The browser does not show this information to readers. The body section contains all the information that will be visible on the front end, like your paragraphs, images, and links. To create these sections, add a &lt;head&gt;&lt;/head&gt; tag and then a &lt;body&gt;&lt;/body&gt; tag between &lt;html&gt; and &lt;/html&gt; in your document.</p>
+         
+         <img src="/Image/6.png" alt="VScode">
+
+         <h4><span class="text-success">Step 5: Add a title in the head section.  </span></h4>
+         <p>In the head section, you'll want to name your document. Write a name (we’ll go with “My HTML Page” in this example) and then wrap it in <title></title> tags./p>
+         
+         <img src="/Image/7.png" alt="VScode">
+
+         <h4><span class="text-success">Step 6: Add &lt;style&gt; tags and any internal CSS in the head section. </span></h4>
+         <p>In the head section, you'll want to name your document. Write a name (we’ll go with “My HTML Page” in this example) and then wrap it in &lt;title&gt;&lt;/title&gt; tags./p>
+         
+         <img src="/Image/7.png" alt="VScode">
+
+         <h4><span class="text-success">Step 7: Add HTML elements in the body section. </span></h4>
+         <p>In the body section, let’s now add a heading and paragraph. You’ll write out the heading name and wrap it in &lt;h1&gt;&lt;/h1&gt; tags, and write out the paragraph and wrap it in &lt;p&gt;&lt;/p&gt; tags.</p>
+         
+         <img src="/Image/8.png" alt="VScode">
+
+         <p>Finally, it's a common practice to indent nested HTML elements. Even though this makes no difference to the browser processing the file, indenting visualizes the document's structure and makes it easier to read.</p>
+
+         <h4><span class="text-success">HTML Example</span></h4>
+         <p>Below is an example of a basic HTML file that any beginner can create. It combines the code written in the steps above.</p>
+         
+         <img src="/Image/9.png" alt="VScode">
+         <p>Below is how it would look on the front end. Note that only the heading and paragraph from the body section are rendered.</p>
+         <img src="https://blog.hubspot.com/hs-fs/hubfs/HTML%20example%20of%20skeletal%20file%20with%20only%20a%20heading%20and%20paragraph.png?width=1300&name=HTML%20example%20of%20skeletal%20file%20with%20only%20a%20heading%20and%20paragraph.png" alt="">
+
+         <p>As you can see, this is a skeletal HTML file. To fill it in, we need to take a look at some more common HTML elements. We’ve already noted two, the &lt;h1&gt; and &lt;p&gt; elements. Let’s take a closer look at these elements and others below.</p>
+
+         <p>To learn HTML more, please watch this video.</p>
+         <iframe class="topic_header" id="topic4" width="560" height="315" src="https://www.youtube.com/embed/916GWv2Qs08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <br>
+
+         <h2>Common HTML Elements</h2>
+         <p>The first version of HTML consisted of just 18 tags. Since then, four versions have been released with dozens of tags added in each version. In the most recent version, HTML5, there are 110 HTML tags.</p>
+
+         <p>HTML elements usually appear lowercase, with a start tag, end tag, and some content in the middle. However, there are elements like &lt;br&gt; that have no content or end tag. These are called empty elements. </p>
+
+         <h3>Below we’ll review the most common elements and their tags.</h3>
+
+         <h4><span class="text-success">Paragraph (&lt;p&gt;)</span></h4>
+         <p>The HTML paragraph element represents a paragraph. By placing <p></p> tags around text, you’ll make that text start on a new line.</p>
+         <p>Here’s an example of two paragraphs:</p>
+
+         <h4><span class="text-success">Image (&lt;img&gt;)</span></h4>
+         <p>The HTML image element embeds an image into the document. It requires a src (source) attribute to render properly. An alt attribute should also be included in case the image doesn’t load properly or the reader has a visual impairment.</p>
+         <p>Here’s an example of an image with a source and alt attribute:</p>
+
+         <h4><span class="text-success">Headings (&lt;h1&gt;-&lt;h6&gt;)</span></h4>
+         <p>The HTML heading elements represent different levels of section headings. &lt;h1&gt; is the highest section level and the most prominent, whereas &lt;h6&gt; is the lowest and therefore least prominent.</p>
+
+         <h4><span class="text-success">Division (&lt;div&gt;)</span></h4>
+         <p>The HTML content division (div) element is a generic block-level container for “flow content.” Flow content is a category of HTML elements that contain text or embedded content. The anchor, block quote, and heading elements are considered flow content.</p>
+         <p>On the back end, div elements help organize the code into clearly marked sections. On the front end, they add line breaks before and after their content. Otherwise, they do not affect the content or layout of the page unless styled with CSS.</p>
+         <p>Here’s an example of div wrapped around an image:</p>
+
+         <h4><span class="text-success">Span (&lt;span&gt;)</span></h4>
+         <p>The HTML span element is a generic inline container for “phrasing content." Phrasing content refers to text and any markup it contains, like &lt;abbr&gt; and &lt;audio&gt; tags.</p>
+
+         <p>Span tags do not inherently represent anything, but they are used to group phrasing content for two reasons. The first is to apply style information to a particular piece of text. For example, if you’re creating drop caps, you can wrap the first letter of the opening paragraphs of each section of your article in span tags.</p>
+
+         <p>The second reason to use span tags is to group elements that already share attribute values. For example, maybe you have a website for English speakers learning French. The default language is set to English but on several pages, you might have a table with French terms in the first column and their English translations in the second column. In that case, you can wrap the French terms in span tags with the language attribute set to “fr.”</p>
+
+         <h4><span class="text-success">Anchor (&lt;a&gt;)</span></h4>
+         <p>The HTML anchor element creates a hyperlink. The anchor element requires an href attribute, which species the destination of the link. The destination can be another section on the same web page or another web page on the same site, or external websites, files, and email addresses.</p>
+
+         <p>Here’s an example of a link nested in a paragraph:</p>
+
+         <h4><span class="text-success">Unordered List (&lt;ul&gt;)</span></h4>
+         <p>The HTML unordered list element is used for grouping items when the order doesn't matter. Shopping lists, for example, don’t need to follow a particular order. List items must be defined by the <li> tag and then wrapped in the <ul> element.</p>
+
+         <p>Here’s an example of an unordered list. Try adding some list items yourself and see how the list changes.</p>
+
+         <h4><span class="text-success">Ordered List (&lt;ol&gt;)</span></h4>
+         <p>The HTML ordered list element is used for grouping items when the order does matter. Recipes, for example, should follow a particular order. The steps must be defined by the <li> tag and then wrapped in the &lt;ol&gt; element.</p>
+
+         <p>An ordered list will start at the number 1 by default. If you’d like to start at another number, simply add a start attribute and set the value to the number you want.</p>
+
+         <p>Here’s an example of an ordered list that starts at 1. Try adding steps at different parts of the list:</p>
+
+         <h4><span class="text-success">Emphasis (&lt;em&gt;)</span></h4>
+         <p>The HTML emphasis element emphasizes the text it contains. Browsers typically render the text in italics.</p>
+
+         <p>Here’s an example of the emphasis wrapped around a paragraph and nested within a paragraph:</p>
+
+         <h4><span class="text-success">Strong (&lt;strong&gt;)</span></h4>
+         <p>The HTML strong element indicates that the text it contains is of strong importance or urgency. Browsers typically render the text in bold.</p>
+
+         <p>Here’s an example of the strong element:</p>
+
+         <h4><span class="text-success">Unarticulated Annotation (&lt;u&gt;)</span></h4>
+         <p>The unarticulated annotation element marks text as having some form of non-textual annotation. For example, you can use this element to annotate spelling errors. </p>
+
+         <p>If you’d like to underline text for any other purpose than to represent a non-textual annotation, then use another HTML element or CSS property. For example, if you’d like to underline text for decoration, you’d use the CSS text-decoration property and set it to “underline” instead. If you’d like to underline a book title, then you’d use the cite element.</p>
+
+         <p>Here’s an example of the strong element:</p>
+
+         <h4><span class="text-success">Table  (&lt;table&gt;)</span></h4>
+         <p>The <table> element creates a table for organizing content in a way that's easy to read at a glance. It requires three other HTML elements: the &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt; tags. </p>
+
+         <p>The &lt;tr&gt; tag to define a table row.</p>
+
+         <p>The &lt;th&gt; tag to define the table header. :</p>
+
+         <p>The &lt;td&gt; tag to define the table data (ie. table cells).</p>
+
+         <p>Here's an example of a table:</p>
+
+         <h4><span class="text-success">Horizontal Rule  (&lt;hr&gt;)</span></h4>
+         <p>The horizontal rule element defines a horizontal line across a web page. It can be used to mark any thematic change, like the next scene in a play, a new section of an essay, or the conclusion of an article.</p>
+
+         <p>Here's an example of a table:</p>
+
+         <h4><span class="text-success">Select</span></h4>
+         <p>The select element defines a dropdown list of options, from which a user can select one option (or multiple if allowed). The select element is usually used in HTML forms for gathering user submissions. It’s best for selecting one option out of many while maximizing space on the web page.</p>
+
+         <p>Here's an example of a table:</p>
+
+         <h4><span class="text-success">Section</span></h4>
+         <p>A section element is a semantic HTML element that represents standalone sections of related content in a web page. For example, a section element can be used to group contact information.</p>
+
+         <p>In the example below, section elements are used to split the web page into "About" and "Contact" sections.</p>
+
+         <h4><span class="text-success">Line Break (&lt;br&gt;)</span></h4>
+         <p>The line break element creates a line break where it’s placed. That means you can add it wherever you want text to end on the current line and resume on the next. This element can be used to display poems, song lyrics, or other forms of content in which the division of lines is significant.</p>
+
+         <p class="topic" id="topic5">Below is an example of an address rendered in two ways: one using line break elements and one using paragraph elements.</p>
+
+         <h2>Common HTML Attributes</h2>
+         <p>Attributes modify HTML elements in different ways. They can change the appearance of the element, apply unique identifiers so the elements can be targeted by CSS, or provide necessary information to readers or screen readers.</p>
+
+         <p>Attributes usually appear lowercase and as name/value pairs, with their values in quotes.</p>
+
+         <h3>Below we’ll take a look at the most common attributes.</h3>
+
+         <h4><span class="text-success">Style Attribute</span></h4>
+         <p>The style attribute contains inline CSS. This CSS will override any styles set in the head section of the document or in an external stylesheet. It will only be applied to the HTML element that has the style attribute in its opening tag.</p>
+
+         <p>Here’s an example of the attribute in HTML:</p>
+
+         <h4><span class="text-success">Style Attribute</span></h4>
+         <p>The ID attribute is used to identify a single element in an HTML file. That means the value of an ID attribute should not be repeated inside the same file. Using this unique value, you can target a single element with internal or external CSS.</p>
+
+         <p>Here’s an example of the attribute in HTML:</p>
+
+         <h4><span class="text-success">Class Attribute</span></h4>
+         <p>The class attribute is used to identify a group of elements under the same name and customize that group, effectively creating a new group of elements.</p>
+
+         <p>Bootstrap buttons, for example, are all labeled with the .btn class so they have the same basic style: 14px font, medium size, rounded edges, etc.</p>
+
+         <p>Here’s an example of the attribute in HTML:</p>
+
+         <h4><span class="text-success">Class Attribute</span></h4>
+         <p>The class attribute is used to identify a group of elements under the same name and customize that group, effectively creating a new group of elements.</p>
+
+         <p>Bootstrap buttons, for example, are all labeled with the .btn class so they have the same basic style: 14px font, medium size, rounded edges, etc.</p>
+
+         <p>Here’s an example of the attribute in HTML:</p>
+
+         <h4><span class="text-success">Language Attribute</span></h4>
+         <p>As mentioned, the language attribute signals to screen readers what the primary language of the web page is and when they need to switch to another language. This is a small detail that can make your content more accessible to all readers, no matter what region they’re from or the language they speak.</p>
+
+         <p>While this attribute is most commonly embedded in the HTML element, it can also be used with paragraph, div, span, and other elements.</p>
+
+         <p>Here’s an example of the attribute in HTML:</p>
+
+         <h4><span class="text-success">Href Attribute</span></h4>
+         <p>An href attribute contains the destination of a link. This attribute must always be included with an anchor element.</p>
+
+         <p>Here’s an example of the href attribute in HTML:</p>
+
+         <h4><span class="text-success">Source Attribute</span></h4>
+         <p>Just like an anchor element needs an href attribute, an image needs a source attribute. This contains the path to the image file or its URL.</p>
+         <p>Here are two examples of the attribute in HTML:</p>
+
+         <h4><span class="text-success">Alt Attribute</span></h4>
+         <p>The alt attribute provides descriptive information about the HTML element. This is important for readers with visual impairments and for all readers in case the element doesn’t load. In that case, readers will still be able to glean what the element was meant to convey. Like the source attribute, you’ll most often find the alt attribute with the image element.</p>
+         <p class="topic" id="topic6">Here’s an example of the attribute in HTML:</p>
+
+         <h2>How to Learn HTML</h2>
+         <p>There are hundreds of resources available to learn HTML for beginners or more advanced developers. Depending on your learning style, you may prefer to read blog posts, watch video tutorials, take online courses, download an ebook, or use a combination of all of these resources.</p>
+
+         <p>Below we’ll walk through at least one example of each of these content types. That way, no matter what type of learner you are, you can find a resource that will help you learn this language.</p>
+
+         <h4><span class="text-success"><a href="https://www.linkedin.com/learning/">1. LinkedIn Learning</a></span></h4>
+         <p>If you’re a visual learner, check out the online tutorials available at LinkedIn Learning (formerly known as Lynda.com). LinkedIn Learning offers 42 courses and over 5,000 video tutorials that cover virtually every HTML topic, from forms to semantic data to everything in between. These lessons are organized into three levels — beginner, intermediate, and advanced — so you can develop your skills over time. To get access to all content on the site, you can sign up for a monthly or annual subscription.</p>
+         <p>The video below is an excerpt from one course called “HTML Essential Training” by Jen Simmons:</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/uhOyfTkgUYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <h4><span class="text-success"><a href="https://www.codecademy.com/learn/learn-html">2. Codecademy</a></span></h4>
+         <p>If you’re overwhelmed by the sheer quantity of videos available on LinkedIn Learning, try Codeacdemy’s Learn HTML class. This online course will start with the basic structure and elements of HTML. You can then put your knowledge to the test by building out more complex elements and projects, including HTML tables and forms, from scratch.</p>
+         <p>While you can complete most of the course for free, there are pro features like quizzes and projects that you’ll have to pay to unlock.</p>
+         <p>The video below is about "Create your first HTML/CSS project" from Codecademy youtube video tutorial:</p>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/wzWmZYi4qMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+         <h4><span class="text-success"><a href="https://www.w3schools.com/html/">3. HTML Tutorial by W3Schools</a></span></h4>
+         <p>Sometimes you have to learn by doing. W3Schools HTML Tutorial is centered on that exact concept. With its online code editor, you can start with the bare bones of an HTML document and practice writing HTML from scratch, or you can start with more fully fleshed out examples and edit them. You can also complete exercises and quizzes for each topic you cover.</p>
+
+         <h4><span class="text-success"><a href="https://www.learn-html.org/">4. Learn HTML</a></span></h4>
+         <p>Like W3Schools, Learn HTML is a free interactive tutorial. However, rather than try to be the most comprehensive resource on HTML, Learn HTML offers a short step-by-step guide for building out a web page. At every step, you can test whether you understood the lesson by completing an exercise in the online code editor. If your code matches the expected output, then you’ll get a success message and be invited to move onto the next lesson.</p>
+
+         <h4><span class="text-success"><a href="https://htmldog.com/guides/html/beginner/">5. HTML Beginner Tutorial by HTML Dog</a></span></h4>
+         <p>HTML Dog created an HTML Beginner Tutorial for those who have absolutely no previous knowledge of HTML or CSS. It starts with a general overview of what HTML is and what it’s made of (tags, elements, and attributes). Then it walks through how to build out an HTML file with titles, paragraphs, headings, and other elements. By the end, you’ll have walked though how to create a complete HTML file. </p>
+         <p>This is similar to W3Schools and Learn HTML — but it invites you to build out the HTML file in your editor of choice, instead of a built-in one. It specifically recommends Notepad.</p>
+
+         <h4><span class="text-success"><a href="https://html.spec.whatwg.org/multipage/">6. HTML Specification by W3C</a></span></h4>
+         <p>The HTML spec by W3C is the living standard for HTML. While it’s not the easiest introduction to the topic, it is the most comprehensive. That’s why we recommend checking it out once you’ve gone through some courses or tutorials and have established some familiarity with web technologies. </p>
+         <br>
+
+         <h1>Now you’re ready to code.</h1>
+        
+
+
+
+
+
+         
+
+
+
+
+
+
+
+      
+        </div> 
+       
+      <div>
+         <ul class="navbar-nav text-lg-end ms-auto mb-2 mb-lg-0">
+           <p style="font-size: 15px;">Reference:https://blog.hubspot.com/website/html</p>
+           </ul>
+       </div> 
+  </section>
+
+  <br>
+
+
+ 
+    <footer class="text-center text-lg-start bg-light text-muted">
+
+      <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom"
+        style="background-color: #f8ffdb;">
+  
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+  
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+  
+        </div>
+  
+      </section>
+  
+      <div class="text-center p-0" style="background-color: #299617;">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="#">Lernen2code.com</a>
+      </div>
+  
+    </footer>
+
+
+  
+    <script src="https://kit.fontawesome.com/8ad5cf4f0f.js" crossorigin="anonymous"></script>
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"></script>
+  </body>
+  
+  </html>
+ 
