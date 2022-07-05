@@ -114,3 +114,9 @@
 .topic_header{
   font-family: abril fatface;
 }
+
+@media screen and (min-width: 400px) {
+  form{
+    
+  }
+}

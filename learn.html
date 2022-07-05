@@ -79,7 +79,7 @@
           <p class="topic" id="topic2">First published by Tim Berners-Lee in 1989, HTML is now used by 94% of all websites, and probably all the ones you visit.</p>
           <br>
           <br>
-         <h2>How to Write HTML</h2>
+         <h2><strong>How to Write HTML</strong></h2>
           <p>As mentioned,<span class="text-success">HTML</span> is just plain text annotated with markup. More precisely, this markup consists of tags and attributes. To help you visualize this syntax, here’s a graphic: </p>
           <img src="/Image/html syntax.png" alt="html syntax">
           <p>Let us take a closer look at each component of an ,<span class="text-success">HTML</span> element below. </p>
@@ -102,7 +102,7 @@
           <p class="topic" id="topic3">Many elements have their own set of attributes that affect how the content is rendered on the page. Attributes can be written in any order inside the opening tag. However, you cannot put multiple instances of the same attribute inside the same HTML tag.</p>
           <p>Before we walk through how to create an HTML file, let's look at what tools you'll need. </p>
           <br>
-         <h2>How to Use HTML</h2>
+         <h2><strong>How to Use HTML</strong></h2>
          <p>To start using HTML, you need a text editor like Notepad. Since an HTML file is in standard text format, any basic text editor will work. You may also download a Visual Studio Code, it is a free code editor.  </p>
          <br>
          <h4><span class="text-success">Step 1: Download the Visual Studio Code.</span></h4>
@@ -186,8 +186,9 @@
          <p>To learn HTML more, please watch this video.</p>
          <iframe class="topic_header" id="topic4" width="560" height="315" src="https://www.youtube.com/embed/916GWv2Qs08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <br>
+         <br>
 
-         <h2>Common HTML Elements</h2>
+         <h2><strong>Common HTML Elements</strong></h2>
          <p>The first version of HTML consisted of just 18 tags. Since then, four versions have been released with dozens of tags added in each version. In the most recent version, HTML5, there are 110 HTML tags.</p>
 
          <p>HTML elements usually appear lowercase, with a start tag, end tag, and some content in the middle. However, there are elements like &lt;br&gt; that have no content or end tag. These are called empty elements. </p>
@@ -196,19 +197,20 @@
 
          <h4><span class="text-success">Paragraph (&lt;p&gt;)</span></h4>
          <p>The HTML paragraph element represents a paragraph. By placing <p></p> tags around text, you’ll make that text start on a new line.</p>
-         <p>Here’s an example of two paragraphs:</p>
+         <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Image (&lt;img&gt;)</span></h4>
          <p>The HTML image element embeds an image into the document. It requires a src (source) attribute to render properly. An alt attribute should also be included in case the image doesn’t load properly or the reader has a visual impairment.</p>
-         <p>Here’s an example of an image with a source and alt attribute:</p>
+         <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_trulli">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Headings (&lt;h1&gt;-&lt;h6&gt;)</span></h4>
          <p>The HTML heading elements represent different levels of section headings. &lt;h1&gt; is the highest section level and the most prominent, whereas &lt;h6&gt; is the lowest and therefore least prominent.</p>
+         <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Division (&lt;div&gt;)</span></h4>
          <p>The HTML content division (div) element is a generic block-level container for “flow content.” Flow content is a category of HTML elements that contain text or embedded content. The anchor, block quote, and heading elements are considered flow content.</p>
          <p>On the back end, div elements help organize the code into clearly marked sections. On the front end, they add line breaks before and after their content. Otherwise, they do not affect the content or layout of the page unless styled with CSS.</p>
-         <p>Here’s an example of div wrapped around an image:</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_div_test">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Span (&lt;span&gt;)</span></h4>
          <p>The HTML span element is a generic inline container for “phrasing content." Phrasing content refers to text and any markup it contains, like &lt;abbr&gt; and &lt;audio&gt; tags.</p>
@@ -216,40 +218,41 @@
          <p>Span tags do not inherently represent anything, but they are used to group phrasing content for two reasons. The first is to apply style information to a particular piece of text. For example, if you’re creating drop caps, you can wrap the first letter of the opening paragraphs of each section of your article in span tags.</p>
 
          <p>The second reason to use span tags is to group elements that already share attribute values. For example, maybe you have a website for English speakers learning French. The default language is set to English but on several pages, you might have a table with French terms in the first column and their English translations in the second column. In that case, you can wrap the French terms in span tags with the language attribute set to “fr.”</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_span">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Anchor (&lt;a&gt;)</span></h4>
          <p>The HTML anchor element creates a hyperlink. The anchor element requires an href attribute, which species the destination of the link. The destination can be another section on the same web page or another web page on the same site, or external websites, files, and email addresses.</p>
 
-         <p>Here’s an example of a link nested in a paragraph:</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_test">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Unordered List (&lt;ul&gt;)</span></h4>
          <p>The HTML unordered list element is used for grouping items when the order doesn't matter. Shopping lists, for example, don’t need to follow a particular order. List items must be defined by the &lt;li&gt; tag and then wrapped in the &lt;ul&gt; element.</p>
 
-         <p>Here’s an example of an unordered list. Try adding some list items yourself and see how the list changes.</p>
+         <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_unordered2">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Ordered List (&lt;ol&gt;)</span></h4>
          <p>The HTML ordered list element is used for grouping items when the order does matter. Recipes, for example, should follow a particular order. The steps must be defined by the &lt;li&gt; tag and then wrapped in the &lt;ol&gt; element.</p>
 
          <p>An ordered list will start at the number 1 by default. If you’d like to start at another number, simply add a start attribute and set the value to the number you want.</p>
 
-         <p>Here’s an example of an ordered list that starts at 1. Try adding steps at different parts of the list:</p>
+         <p><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_ordered2">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Emphasis (&lt;em&gt;)</span></h4>
          <p>The HTML emphasis element emphasizes the text it contains. Browsers typically render the text in italics.</p>
 
-         <p>Here’s an example of the emphasis wrapped around a paragraph and nested within a paragraph:</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_phrase_em">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Strong (&lt;strong&gt;)</span></h4>
          <p>The HTML strong element indicates that the text it contains is of strong importance or urgency. Browsers typically render the text in bold.</p>
 
-         <p>Here’s an example of the strong element:</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_phrase_strong">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Unarticulated Annotation (&lt;u&gt;)</span></h4>
          <p>The unarticulated annotation element marks text as having some form of non-textual annotation. For example, you can use this element to annotate spelling errors. </p>
 
          <p>If you’d like to underline text for any other purpose than to represent a non-textual annotation, then use another HTML element or CSS property. For example, if you’d like to underline text for decoration, you’d use the CSS text-decoration property and set it to “underline” instead. If you’d like to underline a book title, then you’d use the cite element.</p>
 
-         <p>Here’s an example of the strong element:</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_u">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Table  (&lt;table&gt;)</span></h4>
          <p>The &lt;table&gt; element creates a table for organizing content in a way that's easy to read at a glance. It requires three other HTML elements: the &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt; tags. </p>
@@ -260,29 +263,29 @@
 
          <p>The &lt;td&gt; tag to define the table data (ie. table cells).</p>
 
-         <p>Here's an example of a table:</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_table_test">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Horizontal Rule  (&lt;hr&gt;)</span></h4>
          <p>The horizontal rule element defines a horizontal line across a web page. It can be used to mark any thematic change, like the next scene in a play, a new section of an essay, or the conclusion of an article.</p>
 
-         <p>Here's an example of a table:</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_hr_test">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Select</span></h4>
          <p>The select element defines a dropdown list of options, from which a user can select one option (or multiple if allowed). The select element is usually used in HTML forms for gathering user submissions. It’s best for selecting one option out of many while maximizing space on the web page.</p>
 
-         <p>Here's an example of a table:</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Section</span></h4>
          <p>A section element is a semantic HTML element that represents standalone sections of related content in a web page. For example, a section element can be used to group contact information.</p>
 
-         <p>In the example below, section elements are used to split the web page into "About" and "Contact" sections.</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_section">Click Here</a> to view an example.</p>
 
          <h4><span class="text-success">Line Break (&lt;br&gt;)</span></h4>
-         <p>The line break element creates a line break where it’s placed. That means you can add it wherever you want text to end on the current line and resume on the next. This element can be used to display poems, song lyrics, or other forms of content in which the division of lines is significant.</p>
+         <p class="topic" id="topic5">The line break element creates a line break where it’s placed. That means you can add it wherever you want text to end on the current line and resume on the next. This element can be used to display poems, song lyrics, or other forms of content in which the division of lines is significant.</p>
 
-         <p class="topic" id="topic5">Below is an example of an address rendered in two ways: one using line break elements and one using paragraph elements.</p>
+         <p><a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_br">Click Here</a> to view an example.</p>
 
-         <h2>Common HTML Attributes</h2>
+         <h2><strong>Common HTML Attributes</strong></h2>
          <p>Attributes modify HTML elements in different ways. They can change the appearance of the element, apply unique identifiers so the elements can be targeted by CSS, or provide necessary information to readers or screen readers.</p>
 
          <p>Attributes usually appear lowercase and as name/value pairs, with their values in quotes.</p>
@@ -330,10 +333,10 @@
          <p>Here are two examples of the attribute in HTML:</p>
 
          <h4><span class="text-success">Alt Attribute</span></h4>
-         <p>The alt attribute provides descriptive information about the HTML element. This is important for readers with visual impairments and for all readers in case the element doesn’t load. In that case, readers will still be able to glean what the element was meant to convey. Like the source attribute, you’ll most often find the alt attribute with the image element.</p>
-         <p class="topic" id="topic6">Here’s an example of the attribute in HTML:</p>
+         <p class="topic" id="topic6">The alt attribute provides descriptive information about the HTML element. This is important for readers with visual impairments and for all readers in case the element doesn’t load. In that case, readers will still be able to glean what the element was meant to convey. Like the source attribute, you’ll most often find the alt attribute with the image element.</p>
+         <p>Here’s an example of the attribute in HTML:</p>
 
-         <h2>How to Learn HTML</h2>
+         <h2><strong>How to Learn HTML</strong></h2>
          <p>There are hundreds of resources available to learn HTML for beginners or more advanced developers. Depending on your learning style, you may prefer to read blog posts, watch video tutorials, take online courses, download an ebook, or use a combination of all of these resources.</p>
 
          <p>Below we’ll walk through at least one example of each of these content types. That way, no matter what type of learner you are, you can find a resource that will help you learn this language.</p>

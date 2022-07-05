@@ -62,11 +62,11 @@
         </div>
         
         <div class="main">
-          <h2>What is CSS?</h2>
+          <h2><strong>What is CSS?</strong></h2>
           <p>CSS is a language that defines the design and layout of web pages. In other words, CSS controls how web pages look when loaded in a browser. We call this design and layout the “style” of the page. CSS is the standard language for styling and typically works in conjunction with HTML (the language that defines the content of web pages).</p>
           <p id="topic2">CSS stands for Cascading Style Sheets. “Style Sheets” refers to the CSS document itself, and “Cascading” refers to how style rules are applied to page elements. I’ll explain what that means in more detail later on, but let’s first learn what CSS does.</p>
 
-          <h2>What is the difference between HTML and CSS?</h2>
+          <h2><strong>What is the difference between HTML and CSS?</strong></h2>
           <p>HTML and CSS go hand-in-hand in building the web pages we know and love. However, these are distinct languages, and it’s important to understand their different purposes.</p>
           <p>HTML (Hypertext Markup Language) determines the contents of a web page, including text, links, images, videos etc. An HTML file lists all of the “things” on a page, but it doesn’t specify how these things look when displayed in a browser.</p>
           <p>CSS, as we now know, controls the style of these elements. CSS ensures the HTML contents appear to users the way it was intended by designers.</p>
@@ -84,7 +84,7 @@
          <p><strong>Standardization: </strong>Since CSS is the uniform language for styling web pages, a developer or designer can understand the styling for any website by looking at the CSS files.</p>
          <p id="topic3"><strong>Better performance: </strong> CSS reduces the amount of repetitive styling code. Less code means smaller files, and smaller files mean faster page load times.</p>
 
-         <h2>How to Write CSS</h2>
+         <h2><strong>How to Write CSS</strong></h2>
           <p>We’ve explored why the CSS language does and why it’s important (other than what “cascading” means — we’ll get there, trust me). Now, let’s code some.</p>
           <p>Those familiar with HTML will notice that CSS syntax looks a little different. Instead of listing page content, CSS lists the style rules that are assigned to HTML elements, an entire HTML document, or even multiple HTML documents. These rules are processed by the web browser loading the HTML file.</p>
           <p>A rule in CSS looks like this:</p>
@@ -115,7 +115,7 @@
          <p>To comment in CSS, write /*, then your comment text, then end with */.</p>
          <p id="topic4">Comments can also be used to test your CSS — to disable a rule or declaration, simply “comment out” the code, then “uncomment” the code to re-activate it:</p>
 
-         <h2>How to Add CSS to HTML</h2>
+         <h2><strong>How to Add CSS to HTML</strong></h2>
           <p>Of course, CSS doesn’t do us much good if it’s not linked to an HTML file. In this section, I’ll cover three ways to add CSS to HTML: external, internal, and inline.</p>
           
           <h4><span class="text-success">External CSS</span></h4>
@@ -133,7 +133,7 @@
          <p>Inline CSS is placed inside an HTML tag to change the style of a single specific element. Inline syntax is slightly different than what we’ve seen — the declaration is written as the value of the style attribute:</p>
          <p id="topic5">But hold on...doesn’t this violate the practice of separating style from content? Yes, which is why its use is generally discouraged. Inline CSS is both inefficient to program and harder to understand than external and even internal CSS. Still, it’s good to know in case you ever see it.</p>
 
-         <h2>CSS Cascade, Specificity, and Inheritance</h2>
+         <h2><strong>CSS Cascade, Specificity, and Inheritance</strong></h2>
           <p>Up to this point, the concepts we’ve explored so far are relatively straightforward — CSS is a list of style rules applied to HTML. Each rule corresponds to one or more page elements. CSS can be applied externally, internally, or inline. Piece of cake.</p>
           <p>However, in your early CSS tinkering, you’ll likely encounter a situation in which your page elements look different than you expect. You’ve written all of your rules correctly and checked for browser compatibility, and your code still doesn’t seem to work. Why is that?</p>
           <p>The reason is, in addition to the basic principles we’ve covered, CSS has some built-in systems that control how your code affects page elements. To prevent confusion for your future self, there are three more important CSS terms you should know: cascade, specificity, and inheritance. Let’s unpack each of these.</p>
